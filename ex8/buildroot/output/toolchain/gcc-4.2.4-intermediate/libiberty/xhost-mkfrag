@@ -1,0 +1,4 @@
+# Warning: this fragment is automatically generated
+# Following fragment copied from /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/libiberty/../config/mh-x86pic
+PICFLAG=-fpic
+enable_shared = yes

@@ -1,0 +1,3 @@
+ntp-4.2.4_p5-adjtimex.patch
+ntp-4.2.4_p5-nano.patch
+ntp-optional-ipv6.patch

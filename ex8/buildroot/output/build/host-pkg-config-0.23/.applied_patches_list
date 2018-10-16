@@ -1,0 +1,2 @@
+pkg-config-0.23-fix-sysroot.patch
+buildroot-libtool.patch

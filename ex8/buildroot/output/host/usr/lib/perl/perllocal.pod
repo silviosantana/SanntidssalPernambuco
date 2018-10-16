@@ -1,0 +1,22 @@
+=head2 Tue Oct 16 10:38:23 2018: C<Module> L<XML::Parser|XML::Parser>
+
+=over 4
+
+=item *
+
+C<installed into: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/lib/perl>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.36>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

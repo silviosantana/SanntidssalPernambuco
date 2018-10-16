@@ -1,0 +1,3 @@
+ifplugd-cross.patch
+ifplugd-fix-headers.patch
+ifplugd-no-cxx.patch

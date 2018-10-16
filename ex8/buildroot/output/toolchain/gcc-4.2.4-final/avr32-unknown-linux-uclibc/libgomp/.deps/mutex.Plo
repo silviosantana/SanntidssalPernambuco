@@ -1,0 +1,2 @@
+mutex.lo mutex.o:  \
+ /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/libgomp/config/posix/mutex.c

@@ -1,0 +1,67 @@
+lzo1x_1.lo: lzo1x_1.c config1x.h lzo_conf.h ../include/lzo/lzoconf.h \
+  ../config.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin-ccache/../lib/gcc/avr32-unknown-linux-uclibc/4.2.4/include/limits.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin-ccache/../lib/gcc/avr32-unknown-linux-uclibc/4.2.4/include/syslimits.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/limits.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/features.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_config.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/cdefs.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/posix1_lim.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/local_lim.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/linux/limits.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_local_lim.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/posix2_lim.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin-ccache/../lib/gcc/avr32-unknown-linux-uclibc/4.2.4/include/stddef.h \
+  ../include/lzo/lzodefs.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/string.h \
+  miniacc.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/assert.h \
+  lzo_ptr.h ../include/lzo/lzo1x.h lzo_dict.h lzo1x_c.ch
+
+config1x.h:
+
+lzo_conf.h:
+
+../include/lzo/lzoconf.h:
+
+../config.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin-ccache/../lib/gcc/avr32-unknown-linux-uclibc/4.2.4/include/limits.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin-ccache/../lib/gcc/avr32-unknown-linux-uclibc/4.2.4/include/syslimits.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/limits.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/features.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_config.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/cdefs.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/posix1_lim.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/local_lim.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/linux/limits.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_local_lim.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/posix2_lim.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin-ccache/../lib/gcc/avr32-unknown-linux-uclibc/4.2.4/include/stddef.h:
+
+../include/lzo/lzodefs.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/string.h:
+
+miniacc.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/assert.h:
+
+lzo_ptr.h:
+
+../include/lzo/lzo1x.h:
+
+lzo_dict.h:
+
+lzo1x_c.ch:

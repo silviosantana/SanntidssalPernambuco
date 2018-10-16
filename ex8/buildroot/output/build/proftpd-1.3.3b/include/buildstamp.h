@@ -1,0 +1,1 @@
+#define BUILD_STAMP "Tue Oct 16 2018 10:42:27 CEST"

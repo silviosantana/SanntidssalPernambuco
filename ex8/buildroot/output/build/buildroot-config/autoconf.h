@@ -1,0 +1,121 @@
+/*
+ * Automatically generated C config: don't edit
+ * Tue Oct 16 10:28:10 2018
+ */
+#define BR2_DEBIAN_MIRROR "http://ftp.debian.org"
+#define BR2_BZR_CO "bzr co"
+#define BR2_LINUX_KERNEL_USE_DEFCONFIG 1
+#define BR2_PACKAGE_DNSMASQ_DHCP 1
+#define BR2_TARGET_ROOTFS_TAR_GZIP 1
+#define BR2_GIT "git clone"
+#define BR2_TARGET_AVR32_ATNGW100 1
+#define BR2_GCC_SHARED_LIBGCC 1
+#define BR2_SVN_CO "svn co"
+#define BR2_BOARD_NAME "atngw100"
+#define BR2_EXTRA_BINUTILS_CONFIG_OPTIONS ""
+#define BR2_BINUTILS_VERSION "2.18-avr32-1.0.1"
+#define BR2_PACKAGE_LRZSZ 1
+#define BR2_BZR_UP "bzr up"
+#define BR2_NEEDS_GETTEXT 1
+#define BR2_BOARD_PATH "target/device/Atmel/$(BR2_BOARD_NAME)"
+#define BR2_TARGET_UBOOT_CUSTOM_PATCH_DIR ""
+#define BR2_KERNEL_MIRROR "http://www.kernel.org/pub/"
+#define BR2_SVN_UP "svn up"
+#define BR2_PACKAGE_DNSMASQ_TFTP 1
+#define BR2_ROOTFS_SKELETON_DEFAULT 1
+#define BR2_AT91_PATCH_MIRROR "http://maxim.org.za/AT91RM9200/2.6/"
+#define BR2_GCC_VERSION_4_2_4 1
+#define BR2_KERNEL_HEADERS_2_6_35 1
+#define BR2_PACKAGE_STRACE 1
+#define BR2_TARGET_UBOOT_FORMAT_BIN 1
+#define BR2_SOFT_FLOAT 1
+#define BR2_ARCH "avr32"
+#define BR2_PACKAGE_BUSYBOX_FULLINSTALL 1
+#define BR2_UCLIBC_VERSION_0_9_31 1
+#define BR2_OPTIMIZE_S 1
+#define BR2_STRIP_strip 1
+#define BR2_GNU_MIRROR "http://ftp.gnu.org/pub/gnu"
+#define BR2_VERSION "2010.08.atmel.3.0.0"
+#define BR2_PACKAGE_AVAHI_AUTOIPD 1
+#define BR2_PACKAGE_MTD 1
+#define BR2_ZCAT "zcat"
+#define BR2_TARGET_UBOOT_VERSION "2010.06"
+#define BR2_PREFER_SOFT_FLOAT 1
+#define BR2_LINUX_KERNEL_VERSION "2.6.35.4"
+#define BR2_WGET "wget --passive-ftp --retry-connrefused --waitretry=10"
+#define BR2_PACKAGE_MTD_MTD_DEBUG 1
+#define BR2_PACKAGE_NTP 1
+#define BR2_PACKAGE_LZO 1
+#define BR2_TARGET_ROOTFS_TAR 1
+#define BR2_BACKUP_SITE "http://sources.buildroot.net/"
+#define BR2_STAGING_DIR "$(BASE_DIR)/staging"
+#define BR2_PACKAGE_GDB_SERVER 1
+#define BR2_EXTRA_GCC_CONFIG_OPTIONS ""
+#define BR2_PACKAGE_AVR32_WEB_START_GPIO 1
+#define BR2_GDB_VERSION "6.7.1-avr32-2.1.5"
+#define BR2_GCC_VERSION "4.2.4"
+#define BR2_PACKAGE_IFPLUGD 1
+#define BR2_PACKAGE_BUSYBOX_HTTPD 1
+#define BR2_PACKAGE_DNSMASQ 1
+#define BR2_PACKAGE_PROFTPD 1
+#define BR2_UCLIBC_VERSION_STRING "0.9.31"
+#define BR2_PACKAGE_PORTMAP 1
+#define BR2_GDB_VERSION_6_7_1_AVR32_2_1_5 1
+#define BR2_WGET_MIRROR ""
+#define BR2_TAR_OPTIONS ""
+#define BR2_INET_RPC 1
+#define BR2_BZCAT "bzcat"
+#define BR2_TARGET_AVR32 1
+#define BR2_PACKAGE_BUSYBOX 1
+#define BR2_TARGET_AT32AP7000 1
+#define BR2_PACKAGE_ZLIB 1
+#define BR2_SOURCEFORGE_MIRROR "easynews"
+#define BR2_LINUX_KERNEL_PATCH ""
+#define BR2_HAVE_DOT_CONFIG 1
+#define BR2_DEFAULT_KERNEL_HEADERS "2.6.35.4"
+#define BR2_LINUX_KERNEL_SAME_AS_HEADERS 1
+#define BR2_ROOTFS_POST_BUILD_SCRIPT ""
+#define BR2_PACKAGE_MTD_FLASH_INFO 1
+#define BR2_LARGEFILE 1
+#define BR2_PACKAGE_BUSYBOX_CONFIG "target/device/Atmel/busybox-1.17.x.config"
+#define BR2_PACKAGE_MTD_FLASHCP 1
+#define BR2_LINUX_KERNEL_DEFCONFIG "atngw100"
+#define BR2_TARGET_UBOOT_TOOL_ENV 1
+#define BR2_TARGET_UBOOT_2010_06 1
+#define BR2_TARGET_UBOOT_BOARDNAME "atngw100"
+#define BR2_CCACHE 1
+#define BR2_ENABLE_LOCALE_PURGE 1
+#define BR2_PTHREADS_OLD 1
+#define BR2_TARGET_ATMEL 1
+#define BR2_PACKAGE_DROPBEAR 1
+#define BR2_PACKAGE_IPTABLES 1
+#define BR2_PACKAGE_MTD_MTDINFO 1
+#define BR2_CROSS_TOOLCHAIN_TARGET_UTILS 1
+#define BR2_BINUTILS_VERSION_2_18_AVR32_1_0_1 1
+#define BR2_PACKAGE_MTD_FLASH_ERASEALL 1
+#define BR2_ATMEL_MIRROR "ftp://www.at91.com/pub/buildroot/"
+#define BR2_avr32 1
+#define BR2_TARGET_UBOOT 1
+#define BR2_ENDIAN "BIG"
+#define BR2_LINUX_KERNEL 1
+#define BR2_BUSYBOX_VERSION "1.17.1"
+#define BR2_ROOTFS_DEVICE_TABLE "target/generic/mini_device_table.txt"
+#define BR2_PACKAGE_AVAHI 1
+#define BR2_INET_IPV6 1
+#define BR2_TOOLCHAIN_BUILDROOT 1
+#define BR2_PACKAGE_GDB_HOST 1
+#define BR2_PRIMARY_SITE ""
+#define BR2_BUSYBOX_VERSION_1_17_X 1
+#define BR2_USE_WCHAR 1
+#define BR2_JLEVEL 4
+#define BR2_PACKAGE_AVR32_WEB_START 1
+#define BR2_PACKAGE_NCFTP 1
+#define BR2_LINUX_KERNEL_UIMAGE 1
+#define BR2_UCLIBC_CONFIG "toolchain/uClibc/uClibc-0.9.31.config"
+#define BR2_PACKAGE_MTD_FLASH_ERASE 1
+#define BR2_TARGET_OPTIMIZATION "-Os -pipe"
+#define BR2_DL_DIR "$(TOPDIR)/dl"
+#define BR2_ENABLE_LOCALE_WHITELIST "C"
+#define BR2_TARGET_ROOTFS_TAR_OPTIONS ""
+#define BR2_CCACHE_DIR "/var/tmp/ccache-$(USER)-$(CCACHE_VER)/cache"
+#define BR2_PACKAGE_LIBDAEMON 1

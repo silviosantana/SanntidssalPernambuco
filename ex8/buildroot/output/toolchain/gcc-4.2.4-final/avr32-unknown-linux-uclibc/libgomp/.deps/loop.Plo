@@ -1,0 +1,118 @@
+loop.lo loop.o:  \
+ /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/libgomp/loop.c \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/libgomp/libgomp.h \
+  config.h gstdint.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/sys/types.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/features.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/uClibc_config.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/sys/cdefs.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/types.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/wordsize.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/include/stddef.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/typesizes.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/pthreadtypes.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/sched.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/time.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/endian.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/endian.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/sys/select.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/select.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/sigset.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/time.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/sys/sysmacros.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/stdint.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/wchar.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/pthread.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/sched.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/uClibc_clk_tck.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/signal.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/initspin.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/sigthread.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/include/stdbool.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/libgomp/config/posix/sem.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/semaphore.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/libgomp/config/posix/mutex.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/libgomp/config/posix/bar.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/libgomp/libgomp_g.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/libgomp/config/posix/omp-lock.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/libgomp/omp.h.in \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/stdlib.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/alloca.h
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/libgomp/libgomp.h:
+
+config.h:
+
+gstdint.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/sys/types.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/features.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/uClibc_config.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/sys/cdefs.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/types.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/wordsize.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/include/stddef.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/typesizes.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/pthreadtypes.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/sched.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/time.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/endian.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/endian.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/sys/select.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/select.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/sigset.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/time.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/sys/sysmacros.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/stdint.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/wchar.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/pthread.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/sched.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/uClibc_clk_tck.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/signal.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/initspin.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/bits/sigthread.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/include/stdbool.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/libgomp/config/posix/sem.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/semaphore.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/libgomp/config/posix/mutex.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/libgomp/config/posix/bar.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/libgomp/libgomp_g.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/libgomp/config/posix/omp-lock.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/libgomp/omp.h.in:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/stdlib.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include/alloca.h:

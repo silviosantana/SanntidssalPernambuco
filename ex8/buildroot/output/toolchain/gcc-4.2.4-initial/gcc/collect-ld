@@ -1,0 +1,2 @@
+#!/bin/bash
+exec /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ld "$@"

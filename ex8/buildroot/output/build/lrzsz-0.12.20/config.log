@@ -1,0 +1,360 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:566: checking for a BSD compatible install
+configure:619: checking whether build environment is sane
+configure:676: checking whether make sets ${MAKE}
+configure:722: checking for working aclocal
+configure:735: checking for working autoconf
+configure:748: checking for working automake
+configure:761: checking for working autoheader
+configure:774: checking for working makeinfo
+configure:923: checking for gcc
+configure:1000: checking whether the C compiler (/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib) works
+configure:1014: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c  1>&5
+configure:1034: checking whether the C compiler (/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib) is a cross-compiler
+configure:1039: checking whether we are using GNU C
+configure:1048: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -E conftest.c
+configure:1063: checking whether /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging accepts -g
+configure:1091: checking how to run the C preprocessor
+configure:1153: checking whether /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging needs -traditional
+configure:1160:19: error: sgtty.h: No such file or directory
+configure:1201: checking for ranlib
+configure:1228: checking for POSIXized ISC
+configure:1249: checking for AIX
+configure:1274: checking for minix/config.h
+configure:1284: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:1280:26: error: minix/config.h: No such file or directory
+configure: failed program was:
+#line 1279 "configure"
+#include "confdefs.h"
+#include <minix/config.h>
+configure:1325: checking for /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging option to accept ANSI C
+configure:1378: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  -c -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  conftest.c 1>&5
+configure:1404: checking for function prototypes
+configure:1563: checking for working const
+configure:1617: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -c -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  conftest.c 1>&5
+configure:1638: checking for inline
+configure:1652: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -c -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  conftest.c 1>&5
+configure:1703: checking for syslog in -lsocket
+configure:1722: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lsocket   1>&5
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin-ccache/../lib/gcc/avr32-unknown-linux-uclibc/4.2.4/../../../../avr32-unknown-linux-uclibc/bin/ld: cannot find -lsocket
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 1711 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char syslog();
+
+int main() {
+syslog()
+; return 0; }
+configure:1750: checking for syslog in -lbe
+configure:1769: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lbe   1>&5
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin-ccache/../lib/gcc/avr32-unknown-linux-uclibc/4.2.4/../../../../avr32-unknown-linux-uclibc/bin/ld: cannot find -lbe
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 1758 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char syslog();
+
+int main() {
+syslog()
+; return 0; }
+configure:1797: checking for gethostbyname in -lnsl
+configure:1816: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl   1>&5
+/tmp/cczPl3AX.o: In function `main':
+conftest.c:(.text+0x6): warning: gethostbyname is obsolescent, use getnameinfo() instead.
+configure:1845: checking for ANSI C header files
+configure:1858: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:1952: checking for fcntl.h
+configure:1962: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:1952: checking for limits.h
+configure:1962: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:1952: checking for sys/ioctl.h
+configure:1962: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:1952: checking for sys/time.h
+configure:1962: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:1952: checking for unistd.h
+configure:1962: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:1952: checking for sys/times.h
+configure:1962: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:1993: checking for termios.h
+configure:2003: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:1993: checking for sys/termios.h
+configure:2003: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:1993: checking for termio.h
+configure:2003: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:1993: checking for sys/termio.h
+configure:2003: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:1999:24: error: sys/termio.h: No such file or directory
+configure: failed program was:
+#line 1998 "configure"
+#include "confdefs.h"
+#include <sys/termio.h>
+configure:1993: checking for sgtty.h
+configure:2003: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:1999:19: error: sgtty.h: No such file or directory
+configure: failed program was:
+#line 1998 "configure"
+#include "confdefs.h"
+#include <sgtty.h>
+configure:2033: checking for termios.h
+configure:2033: checking for sys/termios.h
+configure:2033: checking for termio.h
+configure:2033: checking for sys/termio.h
+configure:2033: checking for sgtty.h
+configure:2073: checking for sys/mman.h
+configure:2083: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:2073: checking for utime.h
+configure:2083: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:2073: checking for syslog.h
+configure:2083: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:2073: checking for sys/syslog.h
+configure:2083: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:2073: checking for sys/param.h
+configure:2083: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:2113: checking for sys/select.h
+configure:2123: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:2113: checking for strings.h
+configure:2123: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:2113: checking for arpa/inet.h
+configure:2123: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:2151: checking for size_t
+configure:2184: checking for mode_t
+configure:2217: checking for off_t
+configure:2251: checking for speed_t
+configure:2306: checking for st_rdev in struct stat
+configure:2319: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -c -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  conftest.c 1>&5
+configure:2340: checking whether time.h and sys/time.h may both be included
+configure:2354: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -c -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  conftest.c 1>&5
+configure:2375: checking whether sys/time.h and sys/select.h may both be included
+configure:2389: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -c -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  conftest.c 1>&5
+configure:2410: checking whether struct tm is in sys/time.h or time.h
+configure:2423: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -c -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  conftest.c 1>&5
+configure:2445: checking for errno declaration
+configure:2457: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -c -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  conftest.c 1>&5
+configure:2527: checking return type of signal handlers
+configure:2549: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -c -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  conftest.c 1>&5
+configure:2571: checking for unistd.h
+configure:2610: checking for getpagesize
+configure:2638: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:2663: checking for working mmap
+configure:2836: checking for working alloca.h
+configure:2848: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:2869: checking for alloca
+configure:2897: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3081: checking for gettimeofday
+configure:3109: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3081: checking for settimeofday
+configure:3109: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3136: checking for strchr
+configure:3164: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3148: warning: conflicting types for built-in function 'strchr'
+configure:3136: checking for memcpy
+configure:3164: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3148: warning: conflicting types for built-in function 'memcpy'
+configure:3136: checking for select
+configure:3164: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3136: checking for vprintf
+configure:3164: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3148: warning: conflicting types for built-in function 'vprintf'
+configure:3191: checking for times
+configure:3219: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3191: checking for rdchk
+configure:3219: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+/tmp/cc5w6LJ3.o: In function `main':
+conftest.c:(.text+0x6): undefined reference to `rdchk'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 3196 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char rdchk(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char rdchk();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_rdchk) || defined (__stub___rdchk)
+choke me
+#else
+rdchk();
+#endif
+
+; return 0; }
+configure:3191: checking for utime
+configure:3219: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+/tmp/ccTv2FK5.o: In function `main':
+conftest.c:(.text+0x6): warning: the use of OBSOLESCENT `utime' is discouraged, use `utimes'
+configure:3191: checking for syslog
+configure:3219: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3191: checking for siginterrupt
+configure:3219: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3246: checking for mkdir
+configure:3274: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3246: checking for mktime
+configure:3274: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3246: checking for strerror
+configure:3274: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3246: checking for strstr
+configure:3274: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3258: warning: conflicting types for built-in function 'strstr'
+configure:3246: checking for strdup
+configure:3274: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3258: warning: conflicting types for built-in function 'strdup'
+configure:3246: checking for strtoul
+configure:3274: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3246: checking for strtol
+configure:3274: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3246: checking for strpbrk
+configure:3274: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3258: warning: conflicting types for built-in function 'strpbrk'
+configure:3303: checking for stpcpy
+configure:3331: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3315: warning: conflicting types for built-in function 'stpcpy'
+configure:3303: checking for strftime
+configure:3331: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3315: warning: conflicting types for built-in function 'strftime'
+configure:3303: checking for vasprintf
+configure:3331: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3359: checking for getopt_long
+configure:3387: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3417: checking for ftime
+configure:3445: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3460: checking that ftime works correctly
+configure:3531: checking for timezone variable
+configure:3544: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3570: checking for LOG_UUCP
+configure:3628: checking for argz.h
+configure:3638: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:3634:18: error: argz.h: No such file or directory
+configure: failed program was:
+#line 3633 "configure"
+#include "confdefs.h"
+#include <argz.h>
+configure:3628: checking for limits.h
+configure:3628: checking for locale.h
+configure:3638: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:3628: checking for nl_types.h
+configure:3638: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:3628: checking for malloc.h
+configure:3638: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:3628: checking for string.h
+configure:3638: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:3628: checking for unistd.h
+configure:3628: checking for values.h
+configure:3638: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-cpp --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging  conftest.c >/dev/null 2>conftest.out
+configure:3628: checking for sys/param.h
+configure:3668: checking for getcwd
+configure:3696: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3668: checking for munmap
+configure:3696: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3668: checking for putenv
+configure:3696: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3668: checking for setenv
+configure:3696: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3668: checking for setlocale
+configure:3696: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3668: checking for strchr
+configure:3668: checking for strcasecmp
+configure:3696: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3680: warning: conflicting types for built-in function 'strcasecmp'
+configure:3668: checking for __argz_count
+configure:3696: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+/tmp/ccw1rUMS.o: In function `main':
+conftest.c:(.text+0x6): undefined reference to `__argz_count'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 3673 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char __argz_count(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char __argz_count();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub___argz_count) || defined (__stub_____argz_count)
+choke me
+#else
+__argz_count();
+#endif
+
+; return 0; }
+configure:3668: checking for __argz_stringify
+configure:3696: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+/tmp/ccmPy97W.o: In function `main':
+conftest.c:(.text+0x6): undefined reference to `__argz_stringify'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 3673 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char __argz_stringify(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char __argz_stringify();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub___argz_stringify) || defined (__stub_____argz_stringify)
+choke me
+#else
+__argz_stringify();
+#endif
+
+; return 0; }
+configure:3668: checking for __argz_next
+configure:3696: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+/tmp/ccmMDaZY.o: In function `main':
+conftest.c:(.text+0x6): undefined reference to `__argz_next'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 3673 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char __argz_next(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char __argz_next();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub___argz_next) || defined (__stub_____argz_next)
+choke me
+#else
+__argz_next();
+#endif
+
+; return 0; }
+configure:3787: checking for LC_MESSAGES
+configure:3799: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin/avr32-unknown-linux-uclibc-gcc --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging -o conftest -Os -pipe -Os  -msoft-float -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/include  -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.c -lnsl  1>&5
+configure:3820: checking whether NLS is requested

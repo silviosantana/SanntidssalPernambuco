@@ -1,0 +1,4 @@
+avahi-autoipd-perms.patch
+avahi-disable-systemd-support.patch
+avahi-ipv6only.patch
+avahi-optional-ipv6.patch

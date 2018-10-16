@@ -1,0 +1,7 @@
+uClibc-0.9.31-dnslookup-use-after-free.patch
+uClibc-0.9.31-fix-error-locale-utf-8.patch
+uClibc-0.9.31-fix-fcntl64-for-64-bit-targets.patch
+uClibc-0.9.31-more-workarounds-GCC-PR32219.patch
+uClibc-0.9.31-resolv-tentatively-fix-usage-of-uninitialized-DNS-params.patch
+uClibc-0.9.31-resolv-various-memory-corruption-and-off-by-one-fixes.patch
+uClibc-0.9.31-workaround-GCC-PR32219.patch

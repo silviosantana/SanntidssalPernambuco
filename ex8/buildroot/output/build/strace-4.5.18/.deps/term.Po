@@ -1,0 +1,242 @@
+term.o: term.c defs.h config.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/features.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_config.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/cdefs.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/types.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/types.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/wordsize.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin-ccache/../lib/gcc/avr32-unknown-linux-uclibc/4.2.4/include/stddef.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/typesizes.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/pthreadtypes.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/sched.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/time.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/endian.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/endian.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/select.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/select.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/sigset.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/time.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/sysmacros.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/unistd.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/posix_opt.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/environments.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/confname.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/getopt.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/stdlib.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/waitflags.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/waitstatus.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/alloca.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/stdio.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_stdio.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/wchar.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/wchar.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_mutex.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/pthread.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sched.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_clk_tck.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/signal.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/initspin.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/sigthread.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_pthread.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin-ccache/../lib/gcc/avr32-unknown-linux-uclibc/4.2.4/include/stdarg.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/stdio_lim.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/ctype.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_touplow.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/string.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/time.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/errno.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/errno.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/linux/errno.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/errno.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm-generic/errno.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm-generic/errno-base.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin-ccache/../lib/gcc/avr32-unknown-linux-uclibc/4.2.4/include/stdbool.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/signum.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/siginfo.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/sigaction.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/sigcontext.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/sigcontext.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/sigstack.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/ucontext.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/ucontext.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/procfs.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/user.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/ptrace.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/syscall.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/sysnum.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/linux/termios.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/linux/types.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/types.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm-generic/int-ll64.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/bitsperlong.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm-generic/bitsperlong.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/linux/posix_types.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/linux/stddef.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/posix_types.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/termios.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/termbits.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/ioctls.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/ioctl.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm-generic/ioctl.h
+
+defs.h:
+
+config.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/features.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_config.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/cdefs.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/types.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/types.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/wordsize.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin-ccache/../lib/gcc/avr32-unknown-linux-uclibc/4.2.4/include/stddef.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/typesizes.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/pthreadtypes.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/sched.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/time.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/endian.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/endian.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/select.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/select.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/sigset.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/time.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/sysmacros.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/unistd.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/posix_opt.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/environments.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/confname.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/getopt.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/stdlib.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/waitflags.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/waitstatus.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/alloca.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/stdio.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_stdio.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/wchar.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/wchar.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_mutex.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/pthread.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sched.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_clk_tck.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/signal.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/initspin.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/sigthread.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_pthread.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin-ccache/../lib/gcc/avr32-unknown-linux-uclibc/4.2.4/include/stdarg.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/stdio_lim.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/ctype.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_touplow.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/string.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/time.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/errno.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/errno.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/linux/errno.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/errno.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm-generic/errno.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm-generic/errno-base.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin-ccache/../lib/gcc/avr32-unknown-linux-uclibc/4.2.4/include/stdbool.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/signum.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/siginfo.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/sigaction.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/sigcontext.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/sigcontext.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/sigstack.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/ucontext.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/ucontext.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/procfs.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/user.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/ptrace.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/syscall.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/sysnum.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/linux/termios.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/linux/types.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/types.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm-generic/int-ll64.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/bitsperlong.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm-generic/bitsperlong.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/linux/posix_types.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/linux/stddef.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/posix_types.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/termios.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/termbits.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/ioctls.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/ioctl.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm-generic/ioctl.h:

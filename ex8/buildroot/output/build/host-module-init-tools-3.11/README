@@ -1,0 +1,22 @@
+PLEASE READ INSTRUCTIONS CAREFULLY.
+THERE IS NO BACKWARDS COMPATABILITY FOR PRE-2.6 KERNELS!
+
+1a) If you want to install in /sbin:
+	./configure --prefix= --mandir=/usr/share/man
+
+1b) If you want to install in /usr/local/sbin:
+	./configure
+
+2) Now, build it:
+	make
+	make install
+
+3) You will need to run "depmod" for your new kernel, eg:
+	depmod 2.6.29
+
+6) If you want to hack on the source:
+	autoreconf -i
+	(or in full: aclocal -I m4 && automake --add-missing --copy && autoconf)
+
+If this is all too complicated, I recommend getting and installing your
+distribution package or source rpm instead.

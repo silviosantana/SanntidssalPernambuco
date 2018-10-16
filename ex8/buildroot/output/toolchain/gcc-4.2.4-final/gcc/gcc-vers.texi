@@ -1,0 +1,3 @@
+@set version-GCC 4.2.4
+@clear DEVELOPMENT
+@set srcdir /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/gcc

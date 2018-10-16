@@ -1,0 +1,365 @@
+refclock_neoclock4x.o: refclock_neoclock4x.c ../config.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/unistd.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/features.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_config.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/cdefs.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/posix_opt.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/types.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/wordsize.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin-ccache/../lib/gcc/avr32-unknown-linux-uclibc/4.2.4/include/stddef.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/typesizes.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/pthreadtypes.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/sched.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/confname.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/getopt.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/time.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/time.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/time.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/select.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/select.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/sigset.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/types.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/endian.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/endian.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/sysmacros.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/termios.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/termios.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/ttydefaults.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/ioctl.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/ioctls.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/ioctls.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/ioctl.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm-generic/ioctl.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/ioctl-types.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/ctype.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_touplow.h \
+  ../include/ntpd.h ../include/ntp_syslog.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/syslog.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/syslog.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin-ccache/../lib/gcc/avr32-unknown-linux-uclibc/4.2.4/include/stdarg.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/stdio.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_stdio.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/wchar.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/wchar.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_mutex.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/pthread.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sched.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_clk_tck.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/signal.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/initspin.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/sigthread.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_pthread.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/stdio_lim.h \
+  ../include/ntp_fp.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/socket.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/uio.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uio.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/socket.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin-ccache/../lib/gcc/avr32-unknown-linux-uclibc/4.2.4/include/limits.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin-ccache/../lib/gcc/avr32-unknown-linux-uclibc/4.2.4/include/syslimits.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/limits.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/posix1_lim.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/local_lim.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/linux/limits.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_local_lim.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/posix2_lim.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/sockaddr.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/socket.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/sockios.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/netinet/in.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/stdint.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/in.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/byteswap.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/byteswap-common.h \
+  ../include/ntp_rfc2553.h ../config.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/netdb.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/rpc/netdb.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/netdb.h \
+  ../include/ntp_types.h ../include/ntp_machine.h ../include/ntp_proto.h \
+  ../include/ntp.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/math.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/huge_val.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/huge_valf.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/huge_vall.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/inf.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/nan.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/mathdef.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/mathcalls.h \
+  ../include/ntp_random.h ../include/ntp_types.h ../include/isc/boolean.h \
+  ../include/isc/list.h ../include/isc/assertions.h ../include/isc/lang.h \
+  ../include/isc/platform.h ../include/ntp_debug.h \
+  ../include/ntp_select.h ../include/ntp_malloc.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/stdlib.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/alloca.h \
+  ../include/ntp_refclock.h ../include/recvbuff.h ../include/isc/result.h \
+  ../include/isc/types.h ../include/isc/int.h ../include/isc/offset.h \
+  ../include/ntp_io.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/file.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/fcntl.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/fcntl.h \
+  ../include/ntp_control.h ../include/ntp_refclock.h \
+  ../include/ntp_unixtime.h ../include/ntp_stdlib.h \
+  ../include/ntp_string.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/memory.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/string.h \
+  ../include/l_stdlib.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/errno.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/errno.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/linux/errno.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/errno.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm-generic/errno.h \
+  /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm-generic/errno-base.h
+
+../config.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/unistd.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/features.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_config.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/cdefs.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/posix_opt.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/types.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/wordsize.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin-ccache/../lib/gcc/avr32-unknown-linux-uclibc/4.2.4/include/stddef.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/typesizes.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/pthreadtypes.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/sched.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/confname.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/getopt.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/time.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/time.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/time.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/select.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/select.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/sigset.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/types.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/endian.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/endian.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/sysmacros.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/termios.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/termios.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/ttydefaults.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/ioctl.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/ioctls.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/ioctls.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/ioctl.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm-generic/ioctl.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/ioctl-types.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/ctype.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_touplow.h:
+
+../include/ntpd.h:
+
+../include/ntp_syslog.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/syslog.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/syslog.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin-ccache/../lib/gcc/avr32-unknown-linux-uclibc/4.2.4/include/stdarg.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/stdio.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_stdio.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/wchar.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/wchar.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_mutex.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/pthread.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sched.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_clk_tck.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/signal.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/initspin.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/sigthread.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_pthread.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/stdio_lim.h:
+
+../include/ntp_fp.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/socket.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/uio.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uio.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/socket.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin-ccache/../lib/gcc/avr32-unknown-linux-uclibc/4.2.4/include/limits.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/bin-ccache/../lib/gcc/avr32-unknown-linux-uclibc/4.2.4/include/syslimits.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/limits.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/posix1_lim.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/local_lim.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/linux/limits.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/uClibc_local_lim.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/posix2_lim.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/sockaddr.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/socket.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/sockios.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/netinet/in.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/stdint.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/in.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/byteswap.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/byteswap-common.h:
+
+../include/ntp_rfc2553.h:
+
+../config.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/netdb.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/rpc/netdb.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/netdb.h:
+
+../include/ntp_types.h:
+
+../include/ntp_machine.h:
+
+../include/ntp_proto.h:
+
+../include/ntp.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/math.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/huge_val.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/huge_valf.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/huge_vall.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/inf.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/nan.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/mathdef.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/mathcalls.h:
+
+../include/ntp_random.h:
+
+../include/ntp_types.h:
+
+../include/isc/boolean.h:
+
+../include/isc/list.h:
+
+../include/isc/assertions.h:
+
+../include/isc/lang.h:
+
+../include/isc/platform.h:
+
+../include/ntp_debug.h:
+
+../include/ntp_select.h:
+
+../include/ntp_malloc.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/stdlib.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/alloca.h:
+
+../include/ntp_refclock.h:
+
+../include/recvbuff.h:
+
+../include/isc/result.h:
+
+../include/isc/types.h:
+
+../include/isc/int.h:
+
+../include/isc/offset.h:
+
+../include/ntp_io.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/sys/file.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/fcntl.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/fcntl.h:
+
+../include/ntp_control.h:
+
+../include/ntp_refclock.h:
+
+../include/ntp_unixtime.h:
+
+../include/ntp_stdlib.h:
+
+../include/ntp_string.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/memory.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/string.h:
+
+../include/l_stdlib.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/errno.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/bits/errno.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/linux/errno.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm/errno.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm-generic/errno.h:
+
+/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/include/asm-generic/errno-base.h:
