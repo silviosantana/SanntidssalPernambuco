@@ -2,10 +2,26 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "time.h"
 #define IP "192.168.0.1"
 
 float integral;
 float prev_error;
+float Kp = 20;
+float Ki = 900;	
+//float Kd = 0.00189;
+float derivative;
+float y;
+float dt = 0.0025;	
+float u; 
+float error;
+int i;
+struct timespec t;
+struct timespec remain;
+struct timespec sleep_time;
+struct timespec now;
+struct timespec then;
+
 
 void start_simulation()
 {
@@ -46,7 +62,7 @@ float get_y ()
   
   udpconn_receive(conn, recvBuf, sizeof(recvBuf));
 
-	printf("buffer: %s\n\r", recvBuf);
+	//printf("buffer: %s\n\r", recvBuf);
 
 	//memmove(recvBuf, recvBuf+8, strlen(recvBuf));
 	//printf("newMessage: {%s}\n\r", recvBuf);
@@ -58,7 +74,7 @@ float get_y ()
 	printf("B: {%s}\n\r", b);
 	y = atof(recvBuf);*/
 
-	printf("Y: %f\n\r", y);
+	//printf("Y: %f\n\r", y);
   
   udpconn_delete(conn);
 
@@ -74,7 +90,7 @@ void set_u(float u)
 	char command[20];
 
 	snprintf(command, sizeof(command), "SET:%.6f", u);
-	printf("SET U: %s\n\r", command);
+	//printf("SET U: %s\n\r", command);
 
   sprintf(sendBuf, command);    
   udpconn_send(conn, sendBuf);
@@ -84,29 +100,44 @@ void set_u(float u)
 
 float controller (float set_point)
 {
-	float Kp = 10;
-	float Ki = 800;	
-	float y;
-	float dt = 0.001;	
-	float u; 
-	float error;
+
 
 	
-	y = get_y();
 
-	error = set_point - y;
-	integral += error * dt;
-	//float derivative  = (error - prev_error) / dt;
-	prev_error  = error;
+	//printf("Hello controller\n\r");
+	i = 0;
+  clock_gettime(CLOCK_MONOTONIC, &now);
+  then = timespec_add(now, t);
 
-	printf("Error: %f | integral: %f | dt: %f", error, integral, dt);    
+	printf("now: %d s | then: %d s\n\r", now.tv_sec, then.tv_sec);
+	//printf("Time at start: %d s %d ns\n\r", now.tv_sec, now.tv_nsec);
+	while(timespec_cmp(now, then) < 0){
+		y = get_y();
 
-	u = Kp * error + Ki * integral;
+		error = set_point - y;
+		integral += error * dt;
+		derivative  = (error - prev_error) / dt;
+		prev_error  = error;
 
-	printf("Y: %f | u: %f\n\r", y, u);
+		//printf("Error: %f | integral: %f | dt: %f", error, integral, dt);    
 
-	//u = Kp * error + Ki * integral + Kd * derivative;
-	set_u(u);
+		u = Kp * error + Ki * integral;
+
+		//printf("Y: %f | u: %f\n\r", y, u);
+
+		//u = Kp * error + Ki * integral + Kd * derivative;
+		set_u(u);
+
+		clock_nanosleep(CLOCK_MONOTONIC, 0, &sleep_time, &remain);
+		printf("Time remaining: %d ns \n\r", remain.tv_nsec);
+		clock_gettime(CLOCK_MONOTONIC, &now);
+		++i;
+  }
+	
+	printf("%d\n", i);
+	printf("Time at end: %d s %d ns\n", now.tv_sec, now.tv_nsec);
+
+
 	return y;
 
 }
@@ -115,16 +146,30 @@ float controller (float set_point)
 int main ()
 {
 	integral = 0;
-	prev_error = 0;
-	printf("Hello controller\n\r");
+	prev_error = 0;	
+
+	t.tv_sec = 1;
+	t.tv_nsec = 0;
+
+	remain.tv_sec = 0;
+	remain.tv_nsec = 0;
+
+	sleep_time.tv_sec = 0;
+	sleep_time.tv_nsec = 2500000;
+
 	start_simulation();
-	controller(1);
-	controller(1);
-	controller(1);
-	controller(1);
-	controller(1);
-	controller(1);
-	controller(1);
+  controller(1);
+	controller(0);
 	stop_simulation();
+		
 	return 0;
 }
+
+
+
+
+
+
+
+
+
