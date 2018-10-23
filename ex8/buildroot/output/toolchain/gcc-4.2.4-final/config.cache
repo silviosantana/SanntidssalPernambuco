@@ -24,7 +24,7 @@ ac_cv_prog_AR=${ac_cv_prog_AR='/usr/bin/ar'}
 ac_cv_prog_AS=${ac_cv_prog_AS='/usr/bin/as'}
 ac_cv_prog_BISON=${ac_cv_prog_BISON='bison'}
 ac_cv_prog_CC=${ac_cv_prog_CC='/usr/bin/gcc'}
-ac_cv_prog_CC_FOR_TARGET=${ac_cv_prog_CC_FOR_TARGET='/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/gcc'}
+ac_cv_prog_CC_FOR_TARGET=${ac_cv_prog_CC_FOR_TARGET='/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/cc'}
 ac_cv_prog_FLEX=${ac_cv_prog_FLEX='flex'}
 ac_cv_prog_GCC_FOR_TARGET=${ac_cv_prog_GCC_FOR_TARGET='/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/gcc'}
 ac_cv_prog_GNATBIND=${ac_cv_prog_GNATBIND='gnatbind'}

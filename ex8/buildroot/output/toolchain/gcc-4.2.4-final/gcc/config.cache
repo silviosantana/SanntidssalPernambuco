@@ -172,7 +172,7 @@ am_cv_proto_iconv_arg1=${am_cv_proto_iconv_arg1=}
 am_cv_val_LC_MESSAGES=${am_cv_val_LC_MESSAGES=yes}
 gcc_cv_as=${gcc_cv_as=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/as}
 gcc_cv_as_balign_and_p2align=${gcc_cv_as_balign_and_p2align=yes}
-gcc_cv_as_comdat_group=${gcc_cv_as_comdat_group=yes}
+gcc_cv_as_comdat_group=${gcc_cv_as_comdat_group=no}
 gcc_cv_as_comdat_group_percent=${gcc_cv_as_comdat_group_percent=no}
 gcc_cv_as_dwarf2_debug_line=${gcc_cv_as_dwarf2_debug_line=yes}
 gcc_cv_as_dwarf2_file_buggy=${gcc_cv_as_dwarf2_file_buggy=no}

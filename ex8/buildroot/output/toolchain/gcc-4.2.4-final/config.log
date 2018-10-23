@@ -52,7 +52,6 @@ configure:4548: checking for objcopy
 configure:4592: checking for x86_64-unknown-linux-gnu-objdump
 configure:4623: checking for objdump
 configure:4687: checking for cc in /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin
-configure:4687: checking for gcc in /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin
 configure:4780: checking for c++ in /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin
 configure:4780: checking for g++ in /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin
 configure:4780: checking for cxx in /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin

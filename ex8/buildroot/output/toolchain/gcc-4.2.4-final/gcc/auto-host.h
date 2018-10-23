@@ -322,7 +322,7 @@
 
 /* Define 0/1 if your assembler and linker support COMDAT groups. */
 #ifndef USED_FOR_TARGET
-#define HAVE_COMDAT_GROUP 1
+#define HAVE_COMDAT_GROUP 0
 #endif
 
 

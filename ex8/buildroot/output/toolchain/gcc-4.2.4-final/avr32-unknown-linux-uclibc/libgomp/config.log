@@ -41,7 +41,7 @@ PATH: /usr/local/go/bin
 ## Core tests. ##
 ## ----------- ##
 
-configure:1253: creating cache ./config.cache
+configure:1245: loading cache ./config.cache
 configure:1348: checking for --enable-version-specific-runtime-libs
 configure:1365: result: no
 configure:1368: checking for --enable-linux-futex
@@ -59,7 +59,6 @@ configure:1632: result: /usr/bin/install -c
 configure:1643: checking whether build environment is sane
 configure:1686: result: yes
 configure:1751: checking for gawk
-configure:1767: found /usr/bin/gawk
 configure:1777: result: gawk
 configure:1787: checking whether /usr/bin/make sets $(MAKE)
 configure:1807: result: yes
@@ -78,7 +77,7 @@ configure:2375: $? = 0
 configure:2377: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -v </dev/null >&5
 Reading specs from /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/specs
 Target: avr32-unknown-linux-uclibc
-Configured with: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/configure --prefix=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=avr32-unknown-linux-uclibc --enable-languages=c --with-sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging --with-build-time-tools=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin --disable-__cxa_atexit --enable-target-optspace --with-gnu-ld --disable-libssp --disable-multilib --disable-tls --enable-shared --with-gmp=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gmp --with-mpfr=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/mpfr --disable-nls --enable-threads --disable-libmudflap
+Configured with: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/configure --prefix=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=avr32-unknown-linux-uclibc --enable-languages=c --with-sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging --with-build-time-tools=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin --disable-__cxa_atexit --enable-target-optspace --with-gnu-ld --disable-libssp --disable-multilib --disable-tls --enable-shared --with-gmp=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gmp --with-mpfr=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/mpfr --disable-nls --enable-threads --disable-libmudflap : (reconfigured) /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/configure --prefix=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=avr32-unknown-linux-uclibc --enable-languages=c --with-sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging --with-build-time-tools=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin --disable-__cxa_atexit --enable-target-optspace --with-gnu-ld --disable-libssp --disable-multilib --disable-tls --enable-shared --with-gmp=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gmp --with-mpfr=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/mpfr --disable-nls --enable-threads --disable-libmudflap
 Thread model: posix
 gcc version 4.2.4-atmel.1.1.3.avr32linux.1
 configure:2380: $? = 0
@@ -98,35 +97,12 @@ configure:2505: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/outp
 configure:2508: $? = 0
 configure:2533: result: 
 configure:2539: checking for suffix of object files
-configure:2560: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g -Os  conftest.c >&5
-configure:2563: $? = 0
 configure:2585: result: o
 configure:2589: checking whether we are using the GNU C compiler
-configure:2613: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g -Os  conftest.c >&5
-configure:2619: $? = 0
-configure:2623: test -z 
-			 || test ! -s conftest.err
-configure:2626: $? = 0
-configure:2629: test -s conftest.o
-configure:2632: $? = 0
 configure:2645: result: yes
 configure:2651: checking whether /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include accepts -g
-configure:2672: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g  conftest.c >&5
-configure:2678: $? = 0
-configure:2682: test -z 
-			 || test ! -s conftest.err
-configure:2685: $? = 0
-configure:2688: test -s conftest.o
-configure:2691: $? = 0
 configure:2702: result: yes
 configure:2719: checking for /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include option to accept ANSI C
-configure:2789: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include  -c -g -Os  conftest.c >&5
-configure:2795: $? = 0
-configure:2799: test -z 
-			 || test ! -s conftest.err
-configure:2802: $? = 0
-configure:2805: test -s conftest.o
-configure:2808: $? = 0
 configure:2826: result: none needed
 configure:2844: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g -Os  conftest.c >&5
 conftest.c:2: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'me'
@@ -144,7 +120,6 @@ configure:3201: result: /home/student/Documents/SanntidssalPernambuco/ex8/buildr
 configure:3254: checking for avr32-unknown-linux-uclibc-ranlib
 configure:3280: result: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ranlib
 configure:3333: checking for perl
-configure:3351: found /usr/bin/perl
 configure:3364: result: /usr/bin/perl
 configure:3371: checking whether /usr/bin/make sets $(MAKE)
 configure:3391: result: yes
@@ -157,7 +132,6 @@ configure:3538: result: yes
 configure:3634: checking for ld used by GCC
 configure:3697: result: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/collect-ld
 configure:3706: checking if the linker (/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/collect-ld) is GNU ld
-GNU ld (GNU Binutils) 2.18.atmel.1.0.1.avr32linux.1
 configure:3718: result: yes
 configure:3723: checking for /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/collect-ld option to reload object files
 configure:3730: result: -r
@@ -168,24 +142,17 @@ configure:3778: result: yes
 configure:3785: checking how to recognise dependant libraries
 configure:3948: result: pass_all
 configure:3960: checking the maximum length of command line arguments
-configure:4015: result: none
+configure:4012: result: 49153
 configure:4162: checking for avr32-unknown-linux-uclibc-ranlib
 configure:4188: result: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ranlib
 configure:4242: checking for avr32-unknown-linux-uclibc-strip
 configure:4268: result: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/strip
 configure:4610: loading cache ./config.cache
-nntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g -Os  conftest.c 1>&5
-ltcf-c.sh:need_lc: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -shared conftest.o  -v -Wl,-soname -Wl,conftest -o conftest
- /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/collect2 --sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging --eh-frame-hdr -shared -dynamic-linker /lib/ld-uClibc.so.0 -o conftest /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/crti.o /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/crtbeginS.o -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib/gcc/avr32-unknown-linux-uclibc/4.2.4 -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib/gcc/avr32-unknown-linux-uclibc/4.2.4/../../../../avr32-unknown-linux-uclibc/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/lib -L/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/lib conftest.o -soname conftest -lgcc -lc -lgcc /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/crtendS.o /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/crtn.o
-ltconfig:678:checking for /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc option to produce PIC
-ltconfig:687:checking that /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc PIC flag -fPIC -DPIC works.
-ltconfig:697: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g -Os -fPIC -DPIC -DPIC  conftest.c 1>&5
+ents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc option to produce PIC
+ltconfig:687:checking that /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc PIC flag  -fPIC -DPIC works.
 ltconfig:749: checking if /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc static flag -static works
-ltconfig:758: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -o conftest -g -Os   -static conftest.c  1>&5
 ltconfig:780: finding the maximum length of command line arguments
 ltconfig:@lineno@: result: 49153
-ltconfig:833: checking if /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc supports -c -o file.o
-ltconfig:834: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g -Os -o out/conftest2.o  conftest.c 1>&5
 ltconfig:887: checking if /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc supports -fno-rtti -fno-exceptions
 ltconfig:888: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g -Os -fno-rtti -fno-exceptions -c conftest.c  conftest.c 1>&5
 ltconfig:1431: checking if global_symbol_pipe works
@@ -207,44 +174,10 @@ configure:4776: avr32-unknown-linux-uclibc-gfortran -B/home/student/Documents/Sa
 /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/libgomp/configure: line 4777: avr32-unknown-linux-uclibc-gfortran: command not found
 configure:4779: $? = 127
 configure:4787: checking whether we are using the GNU Fortran compiler
-configure:4801: avr32-unknown-linux-uclibc-gfortran -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c   conftest.F >&5
-/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/libgomp/configure: line 4802: avr32-unknown-linux-uclibc-gfortran: command not found
-configure:4807: $? = 127
-configure: failed program was:
-|       program main
-| #ifndef __GNUC__
-|        choke me
-| #endif
-| 
-|       end
 configure:4833: result: no
 configure:4839: checking whether avr32-unknown-linux-uclibc-gfortran -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include accepts -g
-configure:4851: avr32-unknown-linux-uclibc-gfortran -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g  conftest.f >&5
-/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/libgomp/configure: line 4852: avr32-unknown-linux-uclibc-gfortran: command not found
-configure:4857: $? = 127
-configure: failed program was:
-|       program main
-| 
-|       end
 configure:4882: result: no
 configure:4918: checking how to run the C preprocessor
-configure:4953: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -E  conftest.c
-configure:4959: $? = 0
-configure:4991: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -E  conftest.c
-conftest.c:11:28: error: ac_nonexistent.h: No such file or directory
-configure:4997: $? = 1
-configure: failed program was:
-| /* confdefs.h.  */
-| 
-| #define PACKAGE_NAME "GNU OpenMP Runtime Library"
-| #define PACKAGE_TARNAME "libgomp"
-| #define PACKAGE_VERSION "1.0"
-| #define PACKAGE_STRING "GNU OpenMP Runtime Library 1.0"
-| #define PACKAGE_BUGREPORT ""
-| #define PACKAGE "libgomp"
-| #define VERSION "1.0"
-| /* end confdefs.h.  */
-| #include <ac_nonexistent.h>
 configure:5036: result: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -E
 configure:5060: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -E  conftest.c
 configure:5066: $? = 0
@@ -266,232 +199,35 @@ configure: failed program was:
 configure:5148: checking for egrep
 configure:5158: result: grep -E
 configure:5163: checking for ANSI C header files
-configure:5188: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g -Os  conftest.c >&5
-configure:5194: $? = 0
-configure:5198: test -z 
-			 || test ! -s conftest.err
-configure:5201: $? = 0
-configure:5204: test -s conftest.o
-configure:5207: $? = 0
 configure:5319: result: yes
 configure:5329: checking whether time.h and sys/time.h may both be included
-configure:5354: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g -Os  conftest.c >&5
-configure:5360: $? = 0
-configure:5364: test -z 
-			 || test ! -s conftest.err
-configure:5367: $? = 0
-configure:5370: test -s conftest.o
-configure:5373: $? = 0
 configure:5384: result: yes
 configure:5408: checking for sys/types.h
-configure:5424: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g -Os  conftest.c >&5
-configure:5430: $? = 0
-configure:5434: test -z 
-			 || test ! -s conftest.err
-configure:5437: $? = 0
-configure:5440: test -s conftest.o
-configure:5443: $? = 0
 configure:5454: result: yes
 configure:5408: checking for sys/stat.h
-configure:5424: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g -Os  conftest.c >&5
-configure:5430: $? = 0
-configure:5434: test -z 
-			 || test ! -s conftest.err
-configure:5437: $? = 0
-configure:5440: test -s conftest.o
-configure:5443: $? = 0
 configure:5454: result: yes
 configure:5408: checking for stdlib.h
-configure:5424: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g -Os  conftest.c >&5
-configure:5430: $? = 0
-configure:5434: test -z 
-			 || test ! -s conftest.err
-configure:5437: $? = 0
-configure:5440: test -s conftest.o
-configure:5443: $? = 0
 configure:5454: result: yes
 configure:5408: checking for string.h
-configure:5424: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g -Os  conftest.c >&5
-configure:5430: $? = 0
-configure:5434: test -z 
-			 || test ! -s conftest.err
-configure:5437: $? = 0
-configure:5440: test -s conftest.o
-configure:5443: $? = 0
 configure:5454: result: yes
 configure:5408: checking for memory.h
-configure:5424: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g -Os  conftest.c >&5
-configure:5430: $? = 0
-configure:5434: test -z 
-			 || test ! -s conftest.err
-configure:5437: $? = 0
-configure:5440: test -s conftest.o
-configure:5443: $? = 0
 configure:5454: result: yes
 configure:5408: checking for strings.h
-configure:5424: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g -Os  conftest.c >&5
-configure:5430: $? = 0
-configure:5434: test -z 
-			 || test ! -s conftest.err
-configure:5437: $? = 0
-configure:5440: test -s conftest.o
-configure:5443: $? = 0
 configure:5454: result: yes
 configure:5408: checking for inttypes.h
-configure:5424: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g -Os  conftest.c >&5
-configure:5430: $? = 0
-configure:5434: test -z 
-			 || test ! -s conftest.err
-configure:5437: $? = 0
-configure:5440: test -s conftest.o
-configure:5443: $? = 0
 configure:5454: result: yes
 configure:5408: checking for stdint.h
-configure:5424: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g -Os  conftest.c >&5
-configure:5430: $? = 0
-configure:5434: test -z 
-			 || test ! -s conftest.err
-configure:5437: $? = 0
-configure:5440: test -s conftest.o
-configure:5443: $? = 0
 configure:5454: result: yes
 configure:5408: checking for unistd.h
-configure:5424: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g -Os  conftest.c >&5
-configure:5430: $? = 0
-configure:5434: test -z 
-			 || test ! -s conftest.err
-configure:5437: $? = 0
-configure:5440: test -s conftest.o
-configure:5443: $? = 0
 configure:5454: result: yes
 configure:5474: checking for unistd.h
 configure:5479: result: yes
-configure:5483: checking semaphore.h usability
-configure:5495: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g -Os  conftest.c >&5
-configure:5501: $? = 0
-configure:5505: test -z 
-			 || test ! -s conftest.err
-configure:5508: $? = 0
-configure:5511: test -s conftest.o
-configure:5514: $? = 0
-configure:5524: result: yes
-configure:5528: checking semaphore.h presence
-configure:5538: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -E  conftest.c
-configure:5544: $? = 0
-configure:5564: result: yes
-configure:5599: checking for semaphore.h
-configure:5606: result: yes
-configure:5483: checking sys/loadavg.h usability
-configure:5495: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g -Os  conftest.c >&5
-conftest.c:58:25: error: sys/loadavg.h: No such file or directory
-configure:5501: $? = 1
-configure: failed program was:
-| /* confdefs.h.  */
-| 
-| #define PACKAGE_NAME "GNU OpenMP Runtime Library"
-| #define PACKAGE_TARNAME "libgomp"
-| #define PACKAGE_VERSION "1.0"
-| #define PACKAGE_STRING "GNU OpenMP Runtime Library 1.0"
-| #define PACKAGE_BUGREPORT ""
-| #define PACKAGE "libgomp"
-| #define VERSION "1.0"
-| #define STDC_HEADERS 1
-| #define TIME_WITH_SYS_TIME 1
-| #define HAVE_SYS_TYPES_H 1
-| #define HAVE_SYS_STAT_H 1
-| #define HAVE_STDLIB_H 1
-| #define HAVE_STRING_H 1
-| #define HAVE_MEMORY_H 1
-| #define HAVE_STRINGS_H 1
-| #define HAVE_INTTYPES_H 1
-| #define HAVE_STDINT_H 1
-| #define HAVE_UNISTD_H 1
-| #define HAVE_UNISTD_H 1
-| #define HAVE_SEMAPHORE_H 1
-| /* end confdefs.h.  */
-| #include <stdio.h>
-| #if HAVE_SYS_TYPES_H
-| # include <sys/types.h>
-| #endif
-| #if HAVE_SYS_STAT_H
-| # include <sys/stat.h>
-| #endif
-| #if STDC_HEADERS
-| # include <stdlib.h>
-| # include <stddef.h>
-| #else
-| # if HAVE_STDLIB_H
-| #  include <stdlib.h>
-| # endif
-| #endif
-| #if HAVE_STRING_H
-| # if !STDC_HEADERS && HAVE_MEMORY_H
-| #  include <memory.h>
-| # endif
-| # include <string.h>
-| #endif
-| #if HAVE_STRINGS_H
-| # include <strings.h>
-| #endif
-| #if HAVE_INTTYPES_H
-| # include <inttypes.h>
-| #else
-| # if HAVE_STDINT_H
-| #  include <stdint.h>
-| # endif
-| #endif
-| #if HAVE_UNISTD_H
-| # include <unistd.h>
-| #endif
-| #include <sys/loadavg.h>
-configure:5524: result: no
-configure:5528: checking sys/loadavg.h presence
-configure:5538: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -E  conftest.c
-conftest.c:24:25: error: sys/loadavg.h: No such file or directory
-configure:5544: $? = 1
-configure: failed program was:
-| /* confdefs.h.  */
-| 
-| #define PACKAGE_NAME "GNU OpenMP Runtime Library"
-| #define PACKAGE_TARNAME "libgomp"
-| #define PACKAGE_VERSION "1.0"
-| #define PACKAGE_STRING "GNU OpenMP Runtime Library 1.0"
-| #define PACKAGE_BUGREPORT ""
-| #define PACKAGE "libgomp"
-| #define VERSION "1.0"
-| #define STDC_HEADERS 1
-| #define TIME_WITH_SYS_TIME 1
-| #define HAVE_SYS_TYPES_H 1
-| #define HAVE_SYS_STAT_H 1
-| #define HAVE_STDLIB_H 1
-| #define HAVE_STRING_H 1
-| #define HAVE_MEMORY_H 1
-| #define HAVE_STRINGS_H 1
-| #define HAVE_INTTYPES_H 1
-| #define HAVE_STDINT_H 1
-| #define HAVE_UNISTD_H 1
-| #define HAVE_UNISTD_H 1
-| #define HAVE_SEMAPHORE_H 1
-| /* end confdefs.h.  */
-| #include <sys/loadavg.h>
-configure:5564: result: no
-configure:5599: checking for sys/loadavg.h
-configure:5606: result: no
-configure:5483: checking sys/time.h usability
-configure:5495: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g -Os  conftest.c >&5
-configure:5501: $? = 0
-configure:5505: test -z 
-			 || test ! -s conftest.err
-configure:5508: $? = 0
-configure:5511: test -s conftest.o
-configure:5514: $? = 0
-configure:5524: result: yes
-configure:5528: checking sys/time.h presence
-configure:5538: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -E  conftest.c
-configure:5544: $? = 0
-configure:5564: result: yes
-configure:5599: checking for sys/time.h
-configure:5606: result: yes
+configure:5474: checking for semaphore.h
+configure:5479: result: yes
+configure:5474: checking for sys/loadavg.h
+configure:5479: result: no
+configure:5474: checking for sys/time.h
+configure:5479: result: yes
 configure:5633: checking for uintmax_t
 configure:5659: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -c -g -Os  conftest.c >&5
 configure:5665: $? = 0
@@ -547,90 +283,8 @@ configure:8502: $? = 0
 configure:8505: test -s conftest
 configure:8508: $? = 0
 configure:8575: checking for getloadavg
-configure:8632: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -o conftest -g -Os -pthread   conftest.c  >&5
-/tmp/ccDHq76f.o: In function `main':
-/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/avr32-unknown-linux-uclibc/libgomp/conftest.c:64: undefined reference to `getloadavg'
-/tmp/ccDHq76f.o:/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/avr32-unknown-linux-uclibc/libgomp/conftest.c:64: undefined reference to `getloadavg'
-collect2: ld returned 1 exit status
-configure:8638: $? = 1
-configure: failed program was:
-| /* confdefs.h.  */
-| 
-| #define PACKAGE_NAME "GNU OpenMP Runtime Library"
-| #define PACKAGE_TARNAME "libgomp"
-| #define PACKAGE_VERSION "1.0"
-| #define PACKAGE_STRING "GNU OpenMP Runtime Library 1.0"
-| #define PACKAGE_BUGREPORT ""
-| #define PACKAGE "libgomp"
-| #define VERSION "1.0"
-| #define STDC_HEADERS 1
-| #define TIME_WITH_SYS_TIME 1
-| #define HAVE_SYS_TYPES_H 1
-| #define HAVE_SYS_STAT_H 1
-| #define HAVE_STDLIB_H 1
-| #define HAVE_STRING_H 1
-| #define HAVE_MEMORY_H 1
-| #define HAVE_STRINGS_H 1
-| #define HAVE_INTTYPES_H 1
-| #define HAVE_STDINT_H 1
-| #define HAVE_UNISTD_H 1
-| #define HAVE_UNISTD_H 1
-| #define HAVE_SEMAPHORE_H 1
-| #define HAVE_SYS_TIME_H 1
-| /* end confdefs.h.  */
-| /* Define getloadavg to an innocuous variant, in case <limits.h> declares getloadavg.
-|    For example, HP-UX 11i <limits.h> declares gettimeofday.  */
-| #define getloadavg innocuous_getloadavg
-| 
-| /* System header to define __stub macros and hopefully few prototypes,
-|     which can conflict with char getloadavg (); below.
-|     Prefer <limits.h> to <assert.h> if __STDC__ is defined, since
-|     <limits.h> exists even on freestanding compilers.  */
-| 
-| #ifdef __STDC__
-| # include <limits.h>
-| #else
-| # include <assert.h>
-| #endif
-| 
-| #undef getloadavg
-| 
-| /* Override any gcc2 internal prototype to avoid an error.  */
-| #ifdef __cplusplus
-| extern "C"
-| {
-| #endif
-| /* We use char because int might match the return type of a gcc2
-|    builtin and then its argument prototype would still apply.  */
-| char getloadavg ();
-| /* The GNU C library defines this for functions which it implements
-|     to always fail with ENOSYS.  Some functions are actually named
-|     something starting with __ and the normal name is an alias.  */
-| #if defined (__stub_getloadavg) || defined (__stub___getloadavg)
-| choke me
-| #else
-| char (*f) () = getloadavg;
-| #endif
-| #ifdef __cplusplus
-| }
-| #endif
-| 
-| int
-| main ()
-| {
-| return f != getloadavg;
-|   ;
-|   return 0;
-| }
 configure:8663: result: no
 configure:8575: checking for clock_gettime
-configure:8632: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -o conftest -g -Os -pthread   conftest.c  >&5
-configure:8638: $? = 0
-configure:8642: test -z 
-			 || test ! -s conftest.err
-configure:8645: $? = 0
-configure:8648: test -s conftest
-configure:8651: $? = 0
 configure:8663: result: yes
 configure:8711: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -o conftest -g -Os -pthread   conftest.c  >&5
 configure:8717: $? = 0
@@ -640,7 +294,7 @@ configure:8724: $? = 0
 configure:8727: test -s conftest
 configure:8730: $? = 0
 configure:8752: /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/xgcc -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/./gcc/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin/ -B/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/lib/ -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/include -isystem /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/sys-include -o conftest -g -Os -pthread   conftest.c  >&5
-/tmp/cc8Zxkpo.o: In function `main':
+/tmp/ccvx7VNx.o: In function `main':
 /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4-final/avr32-unknown-linux-uclibc/libgomp/conftest.c:33: undefined reference to `pthread_tryjoin_np'
 collect2: ld returned 1 exit status
 configure:8758: $? = 1
@@ -1805,6 +1459,7 @@ config.status:777: creating Makefile
 config.status:777: creating testsuite/Makefile
 config.status:777: creating libgomp.spec
 config.status:874: creating config.h
+config.status:994: config.h is unchanged
 config.status:1174: executing default-1 commands
 config.status:1174: executing depfiles commands
 config.status:1174: executing gstdint.h commands

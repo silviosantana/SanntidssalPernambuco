@@ -41,7 +41,7 @@ PATH: /usr/local/go/bin
 ## Core tests. ##
 ## ----------- ##
 
-configure:1220: creating cache ./config.cache
+configure:1212: loading cache ./config.cache
 configure:1322: checking whether /usr/bin/make sets $(MAKE)
 configure:1342: result: yes
 configure:1359: checking for x86_64-unknown-linux-gnu-gcc
@@ -83,35 +83,12 @@ configure:1803: /usr/bin/gcc -o conftest -I/home/student/Documents/SanntidssalPe
 configure:1806: $? = 0
 configure:1831: result: 
 configure:1837: checking for suffix of object files
-configure:1858: /usr/bin/gcc -c -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include  conftest.c >&5
-configure:1861: $? = 0
 configure:1883: result: o
 configure:1887: checking whether we are using the GNU C compiler
-configure:1911: /usr/bin/gcc -c -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include  conftest.c >&5
-configure:1917: $? = 0
-configure:1921: test -z 
-			 || test ! -s conftest.err
-configure:1924: $? = 0
-configure:1927: test -s conftest.o
-configure:1930: $? = 0
 configure:1943: result: yes
 configure:1949: checking whether /usr/bin/gcc accepts -g
-configure:1970: /usr/bin/gcc -c -g  conftest.c >&5
-configure:1976: $? = 0
-configure:1980: test -z 
-			 || test ! -s conftest.err
-configure:1983: $? = 0
-configure:1986: test -s conftest.o
-configure:1989: $? = 0
 configure:2000: result: yes
 configure:2017: checking for /usr/bin/gcc option to accept ANSI C
-configure:2087: /usr/bin/gcc  -c -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include  conftest.c >&5
-configure:2093: $? = 0
-configure:2097: test -z 
-			 || test ! -s conftest.err
-configure:2100: $? = 0
-configure:2103: test -s conftest.o
-configure:2106: $? = 0
 configure:2124: result: none needed
 configure:2142: /usr/bin/gcc -c -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include  conftest.c >&5
 conftest.c:2:3: error: unknown type name 'choke'
@@ -124,115 +101,30 @@ configure: failed program was:
 configure:2284: checking for x86_64-unknown-linux-gnu-ranlib
 configure:2310: result: ranlib
 configure:2367: checking for aclocal
-configure:2383: found /usr/bin/aclocal
 configure:2393: result: aclocal
 configure:2408: checking for autoconf
-configure:2424: found /usr/bin/autoconf
 configure:2434: result: autoconf
 configure:2449: checking for autoheader
-configure:2465: found /usr/bin/autoheader
 configure:2475: result: autoheader
 configure:2498: checking whether /usr/bin/gcc supports -W
-configure:2520: /usr/bin/gcc -c -W  conftest.c >&5
-configure:2526: $? = 0
-configure:2530: test -z 
-			 || test ! -s conftest.err
-configure:2533: $? = 0
-configure:2536: test -s conftest.o
-configure:2539: $? = 0
 configure:2551: result: yes
 configure:2498: checking whether /usr/bin/gcc supports -Wall
-configure:2520: /usr/bin/gcc -c -Wall  conftest.c >&5
-configure:2526: $? = 0
-configure:2530: test -z 
-			 || test ! -s conftest.err
-configure:2533: $? = 0
-configure:2536: test -s conftest.o
-configure:2539: $? = 0
 configure:2551: result: yes
 configure:2498: checking whether /usr/bin/gcc supports -Wwrite-strings
-configure:2520: /usr/bin/gcc -c -Wwrite-strings  conftest.c >&5
-configure:2526: $? = 0
-configure:2530: test -z 
-			 || test ! -s conftest.err
-configure:2533: $? = 0
-configure:2536: test -s conftest.o
-configure:2539: $? = 0
 configure:2551: result: yes
 configure:2498: checking whether /usr/bin/gcc supports -Wstrict-prototypes
-configure:2520: /usr/bin/gcc -c -Wstrict-prototypes  conftest.c >&5
-conftest.c:11:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
-configure:2526: $? = 0
-configure:2530: test -z 
-			 || test ! -s conftest.err
-configure:2533: $? = 0
-configure:2536: test -s conftest.o
-configure:2539: $? = 0
 configure:2551: result: yes
 configure:2498: checking whether /usr/bin/gcc supports -Wmissing-prototypes
-configure:2520: /usr/bin/gcc -c -Wmissing-prototypes  conftest.c >&5
-configure:2526: $? = 0
-configure:2530: test -z 
-			 || test ! -s conftest.err
-configure:2533: $? = 0
-configure:2536: test -s conftest.o
-configure:2539: $? = 0
 configure:2551: result: yes
 configure:2498: checking whether /usr/bin/gcc supports -Wold-style-definition
-configure:2520: /usr/bin/gcc -c -Wold-style-definition  conftest.c >&5
-conftest.c: In function 'main':
-conftest.c:11:1: warning: old-style function definition [-Wold-style-definition]
-configure:2526: $? = 0
-configure:2530: test -z 
-			 || test ! -s conftest.err
-configure:2533: $? = 0
-configure:2536: test -s conftest.o
-configure:2539: $? = 0
 configure:2551: result: yes
 configure:2498: checking whether /usr/bin/gcc supports -Wmissing-format-attribute
-configure:2520: /usr/bin/gcc -c -Wmissing-format-attribute  conftest.c >&5
-configure:2526: $? = 0
-configure:2530: test -z 
-			 || test ! -s conftest.err
-configure:2533: $? = 0
-configure:2536: test -s conftest.o
-configure:2539: $? = 0
 configure:2551: result: yes
 configure:2498: checking whether /usr/bin/gcc supports -Wcast-qual
-configure:2520: /usr/bin/gcc -c -Wcast-qual  conftest.c >&5
-configure:2526: $? = 0
-configure:2530: test -z 
-			 || test ! -s conftest.err
-configure:2533: $? = 0
-configure:2536: test -s conftest.o
-configure:2539: $? = 0
 configure:2551: result: yes
 configure:2562: checking whether /usr/bin/gcc supports -pedantic -Wno-long-long
-configure:2585: /usr/bin/gcc -c -pedantic -Wno-long-long  conftest.c >&5
-configure:2591: $? = 0
-configure:2595: test -z 
-			 || test ! -s conftest.err
-configure:2598: $? = 0
-configure:2601: test -s conftest.o
-configure:2604: $? = 0
 configure:2616: result: yes
 configure:2649: checking how to run the C preprocessor
-configure:2684: /usr/bin/gcc -E  conftest.c
-configure:2690: $? = 0
-configure:2722: /usr/bin/gcc -E  conftest.c
-conftest.c:9:28: fatal error: ac_nonexistent.h: No such file or directory
-compilation terminated.
-configure:2728: $? = 1
-configure: failed program was:
-| /* confdefs.h.  */
-| 
-| #define PACKAGE_NAME "libdecnumber"
-| #define PACKAGE_TARNAME "libdecnumber"
-| #define PACKAGE_VERSION " "
-| #define PACKAGE_STRING "libdecnumber  "
-| #define PACKAGE_BUGREPORT "gcc-bugs@gcc.gnu.org"
-| /* end confdefs.h.  */
-| #include <ac_nonexistent.h>
 configure:2767: result: /usr/bin/gcc -E
 configure:2791: /usr/bin/gcc -E  conftest.c
 configure:2797: $? = 0
@@ -253,148 +145,33 @@ configure: failed program was:
 configure:2879: checking for egrep
 configure:2889: result: grep -E
 configure:2894: checking for ANSI C header files
-configure:2919: /usr/bin/gcc -c -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include  conftest.c >&5
-configure:2925: $? = 0
-configure:2929: test -z 
-			 || test ! -s conftest.err
-configure:2932: $? = 0
-configure:2935: test -s conftest.o
-configure:2938: $? = 0
-configure:3027: /usr/bin/gcc -o conftest -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include   conftest.c  >&5
-conftest.c: In function 'main':
-conftest.c:26:7: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
-configure:3030: $? = 0
-configure:3032: ./conftest
-configure:3035: $? = 0
 configure:3050: result: yes
 configure:3074: checking for sys/types.h
-configure:3090: /usr/bin/gcc -c -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include  conftest.c >&5
-configure:3096: $? = 0
-configure:3100: test -z 
-			 || test ! -s conftest.err
-configure:3103: $? = 0
-configure:3106: test -s conftest.o
-configure:3109: $? = 0
 configure:3120: result: yes
 configure:3074: checking for sys/stat.h
-configure:3090: /usr/bin/gcc -c -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include  conftest.c >&5
-configure:3096: $? = 0
-configure:3100: test -z 
-			 || test ! -s conftest.err
-configure:3103: $? = 0
-configure:3106: test -s conftest.o
-configure:3109: $? = 0
 configure:3120: result: yes
 configure:3074: checking for stdlib.h
-configure:3090: /usr/bin/gcc -c -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include  conftest.c >&5
-configure:3096: $? = 0
-configure:3100: test -z 
-			 || test ! -s conftest.err
-configure:3103: $? = 0
-configure:3106: test -s conftest.o
-configure:3109: $? = 0
 configure:3120: result: yes
 configure:3074: checking for string.h
-configure:3090: /usr/bin/gcc -c -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include  conftest.c >&5
-configure:3096: $? = 0
-configure:3100: test -z 
-			 || test ! -s conftest.err
-configure:3103: $? = 0
-configure:3106: test -s conftest.o
-configure:3109: $? = 0
 configure:3120: result: yes
 configure:3074: checking for memory.h
-configure:3090: /usr/bin/gcc -c -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include  conftest.c >&5
-configure:3096: $? = 0
-configure:3100: test -z 
-			 || test ! -s conftest.err
-configure:3103: $? = 0
-configure:3106: test -s conftest.o
-configure:3109: $? = 0
 configure:3120: result: yes
 configure:3074: checking for strings.h
-configure:3090: /usr/bin/gcc -c -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include  conftest.c >&5
-configure:3096: $? = 0
-configure:3100: test -z 
-			 || test ! -s conftest.err
-configure:3103: $? = 0
-configure:3106: test -s conftest.o
-configure:3109: $? = 0
 configure:3120: result: yes
 configure:3074: checking for inttypes.h
-configure:3090: /usr/bin/gcc -c -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include  conftest.c >&5
-configure:3096: $? = 0
-configure:3100: test -z 
-			 || test ! -s conftest.err
-configure:3103: $? = 0
-configure:3106: test -s conftest.o
-configure:3109: $? = 0
 configure:3120: result: yes
 configure:3074: checking for stdint.h
-configure:3090: /usr/bin/gcc -c -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include  conftest.c >&5
-configure:3096: $? = 0
-configure:3100: test -z 
-			 || test ! -s conftest.err
-configure:3103: $? = 0
-configure:3106: test -s conftest.o
-configure:3109: $? = 0
 configure:3120: result: yes
 configure:3074: checking for unistd.h
-configure:3090: /usr/bin/gcc -c -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include  conftest.c >&5
-configure:3096: $? = 0
-configure:3100: test -z 
-			 || test ! -s conftest.err
-configure:3103: $? = 0
-configure:3106: test -s conftest.o
-configure:3109: $? = 0
 configure:3120: result: yes
-configure:3149: checking ctype.h usability
-configure:3161: /usr/bin/gcc -c -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include  conftest.c >&5
-configure:3167: $? = 0
-configure:3171: test -z 
-			 || test ! -s conftest.err
-configure:3174: $? = 0
-configure:3177: test -s conftest.o
-configure:3180: $? = 0
-configure:3190: result: yes
-configure:3194: checking ctype.h presence
-configure:3204: /usr/bin/gcc -E  conftest.c
-configure:3210: $? = 0
-configure:3230: result: yes
-configure:3265: checking for ctype.h
-configure:3272: result: yes
-configure:3149: checking stddef.h usability
-configure:3161: /usr/bin/gcc -c -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include  conftest.c >&5
-configure:3167: $? = 0
-configure:3171: test -z 
-			 || test ! -s conftest.err
-configure:3174: $? = 0
-configure:3177: test -s conftest.o
-configure:3180: $? = 0
-configure:3190: result: yes
-configure:3194: checking stddef.h presence
-configure:3204: /usr/bin/gcc -E  conftest.c
-configure:3210: $? = 0
-configure:3230: result: yes
-configure:3265: checking for stddef.h
-configure:3272: result: yes
+configure:3140: checking for ctype.h
+configure:3145: result: yes
+configure:3140: checking for stddef.h
+configure:3145: result: yes
 configure:3140: checking for string.h
 configure:3145: result: yes
-configure:3149: checking stdio.h usability
-configure:3161: /usr/bin/gcc -c -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include  conftest.c >&5
-configure:3167: $? = 0
-configure:3171: test -z 
-			 || test ! -s conftest.err
-configure:3174: $? = 0
-configure:3177: test -s conftest.o
-configure:3180: $? = 0
-configure:3190: result: yes
-configure:3194: checking stdio.h presence
-configure:3204: /usr/bin/gcc -E  conftest.c
-configure:3210: $? = 0
-configure:3230: result: yes
-configure:3265: checking for stdio.h
-configure:3272: result: yes
+configure:3140: checking for stdio.h
+configure:3145: result: yes
 configure:3298: checking for uintmax_t
 configure:3324: /usr/bin/gcc -c -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include  conftest.c >&5
 configure:3330: $? = 0
@@ -443,52 +220,16 @@ configure:3610: result: yes
 configure:3956: checking what to include in gstdint.h
 configure:3976: result: stdint.h (already complete)
 configure:6134: checking for an ANSI C-conforming const
-configure:6201: /usr/bin/gcc -c -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include  conftest.c >&5
-configure:6207: $? = 0
-configure:6211: test -z 
-			 || test ! -s conftest.err
-configure:6214: $? = 0
-configure:6217: test -s conftest.o
-configure:6220: $? = 0
 configure:6231: result: yes
 configure:6241: checking for off_t
-configure:6265: /usr/bin/gcc -c -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include  conftest.c >&5
-configure:6271: $? = 0
-configure:6275: test -z 
-			 || test ! -s conftest.err
-configure:6278: $? = 0
-configure:6281: test -s conftest.o
-configure:6284: $? = 0
 configure:6295: result: yes
 configure:6307: checking for int
-configure:6331: /usr/bin/gcc -c -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include  conftest.c >&5
-configure:6337: $? = 0
-configure:6341: test -z 
-			 || test ! -s conftest.err
-configure:6344: $? = 0
-configure:6347: test -s conftest.o
-configure:6350: $? = 0
 configure:6361: result: yes
 configure:6364: checking size of int
-configure:6683: /usr/bin/gcc -o conftest -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include   conftest.c  >&5
-configure:6686: $? = 0
-configure:6688: ./conftest
-configure:6691: $? = 0
 configure:6714: result: 4
 configure:6721: checking for long
-configure:6745: /usr/bin/gcc -c -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include  conftest.c >&5
-configure:6751: $? = 0
-configure:6755: test -z 
-			 || test ! -s conftest.err
-configure:6758: $? = 0
-configure:6761: test -s conftest.o
-configure:6764: $? = 0
 configure:6775: result: yes
 configure:6778: checking size of long
-configure:7097: /usr/bin/gcc -o conftest -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/include -I/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/host/usr/include   conftest.c  >&5
-configure:7100: $? = 0
-configure:7102: ./conftest
-configure:7105: $? = 0
 configure:7128: result: 8
 configure:7137: checking for ANSI C header files
 configure:7293: result: yes
@@ -511,6 +252,7 @@ on Sanntid
 
 config.status:680: creating Makefile
 config.status:776: creating config.h
+config.status:892: config.h is unchanged
 config.status:1054: executing gstdint.h commands
 
 ## ---------------- ##

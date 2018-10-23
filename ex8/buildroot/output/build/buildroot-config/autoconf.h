@@ -1,6 +1,6 @@
 /*
  * Automatically generated C config: don't edit
- * Tue Oct 16 10:28:10 2018
+ * Tue Oct 23 11:57:06 2018
  */
 #define BR2_DEBIAN_MIRROR "http://ftp.debian.org"
 #define BR2_BZR_CO "bzr co"

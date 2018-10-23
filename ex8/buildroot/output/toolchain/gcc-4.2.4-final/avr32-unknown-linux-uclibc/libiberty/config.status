@@ -986,9 +986,6 @@ ${ac_dA}HAVE_DECL_REALLOC${ac_dB}HAVE_DECL_REALLOC${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_DECL_SBRK${ac_dB}HAVE_DECL_SBRK${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_DECL_STRVERSCMP${ac_dB}HAVE_DECL_STRVERSCMP${ac_dC}0${ac_dD}
 ${ac_dA}NEED_DECLARATION_CANONICALIZE_FILE_NAME${ac_dB}NEED_DECLARATION_CANONICALIZE_FILE_NAME${ac_dC}1${ac_dD}
-${ac_dA}HAVE_STDLIB_H${ac_dB}HAVE_STDLIB_H${ac_dC}1${ac_dD}
-${ac_dA}HAVE_UNISTD_H${ac_dB}HAVE_UNISTD_H${ac_dC}1${ac_dD}
-${ac_dA}HAVE_GETPAGESIZE${ac_dB}HAVE_GETPAGESIZE${ac_dC}1${ac_dD}
 CEOF
   sed -f $tmp/defines.sed $tmp/in >$tmp/out
   rm -f $tmp/in
@@ -1149,9 +1146,6 @@ ${ac_uA}HAVE_DECL_REALLOC${ac_uB}HAVE_DECL_REALLOC${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_DECL_SBRK${ac_uB}HAVE_DECL_SBRK${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_DECL_STRVERSCMP${ac_uB}HAVE_DECL_STRVERSCMP${ac_uC}0${ac_uD}
 ${ac_uA}NEED_DECLARATION_CANONICALIZE_FILE_NAME${ac_uB}NEED_DECLARATION_CANONICALIZE_FILE_NAME${ac_uC}1${ac_uD}
-${ac_uA}HAVE_STDLIB_H${ac_uB}HAVE_STDLIB_H${ac_uC}1${ac_uD}
-${ac_uA}HAVE_UNISTD_H${ac_uB}HAVE_UNISTD_H${ac_uC}1${ac_uD}
-${ac_uA}HAVE_GETPAGESIZE${ac_uB}HAVE_GETPAGESIZE${ac_uC}1${ac_uD}
 s,^[	 ]*#[	 ]*undef[	 ][	 ]*[a-zA-Z_][a-zA-Z_0-9]*,/* & */,
 CEOF
   sed -f $tmp/undefs.sed $tmp/in >$tmp/out

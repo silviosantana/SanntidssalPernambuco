@@ -631,7 +631,7 @@ s,@extra_parts@,crtbegin.o crtbeginS.o crtend.o crtendS.o,;t t
 s,@extra_passes@,,;t t
 s,@extra_programs@,,;t t
 s,@float_h_file@,,;t t
-s,@gcc_config_arguments@,/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/configure --prefix=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=avr32-unknown-linux-uclibc --enable-languages=c --with-sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging --with-build-time-tools=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin --disable-__cxa_atexit --enable-target-optspace --with-gnu-ld --disable-libssp --disable-multilib --disable-tls --enable-shared --with-gmp=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gmp --with-mpfr=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/mpfr --disable-nls --enable-threads --disable-libmudflap,;t t
+s,@gcc_config_arguments@,/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/configure --prefix=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=avr32-unknown-linux-uclibc --enable-languages=c --with-sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging --with-build-time-tools=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin --disable-__cxa_atexit --enable-target-optspace --with-gnu-ld --disable-libssp --disable-multilib --disable-tls --enable-shared --with-gmp=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gmp --with-mpfr=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/mpfr --disable-nls --enable-threads --disable-libmudflap : (reconfigured) /home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gcc-4.2.4/configure --prefix=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=avr32-unknown-linux-uclibc --enable-languages=c --with-sysroot=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging --with-build-time-tools=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/staging/usr/avr32-unknown-linux-uclibc/bin --disable-__cxa_atexit --enable-target-optspace --with-gnu-ld --disable-libssp --disable-multilib --disable-tls --enable-shared --with-gmp=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/gmp --with-mpfr=/home/student/Documents/SanntidssalPernambuco/ex8/buildroot/output/toolchain/mpfr --disable-nls --enable-threads --disable-libmudflap,;t t
 s,@gcc_gxx_include_dir@,$(libsubdir)/$(unlibsubdir)/..`echo $(exec_prefix) | sed -e 's|^$(prefix)||' -e 's|/[^/]*|/..|g'`/avr32-unknown-linux-uclibc/include/c++/$(version),;t t
 s,@host_exeext@,,;t t
 s,@host_xm_file_list@, auto-host.h $(srcdir)/../include/ansidecl.h,;t t
@@ -1154,7 +1154,7 @@ t clr
 ${ac_dA}HAVE_GAS_HIDDEN${ac_dB}HAVE_GAS_HIDDEN${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_AS_LEB128${ac_dB}HAVE_AS_LEB128${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_GAS_SHF_MERGE${ac_dB}HAVE_GAS_SHF_MERGE${ac_dC}1${ac_dD}
-${ac_dA}HAVE_COMDAT_GROUP${ac_dB}HAVE_COMDAT_GROUP${ac_dC}1${ac_dD}
+${ac_dA}HAVE_COMDAT_GROUP${ac_dB}HAVE_COMDAT_GROUP${ac_dC}0${ac_dD}
 ${ac_dA}HAVE_LD_STATIC_DYNAMIC${ac_dB}HAVE_LD_STATIC_DYNAMIC${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_AS_DWARF2_DEBUG_LINE${ac_dB}HAVE_AS_DWARF2_DEBUG_LINE${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_AS_GDWARF2_DEBUG_FLAG${ac_dB}HAVE_AS_GDWARF2_DEBUG_FLAG${ac_dC}1${ac_dD}
@@ -1367,7 +1367,7 @@ t clr
 ${ac_uA}HAVE_GAS_HIDDEN${ac_uB}HAVE_GAS_HIDDEN${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_AS_LEB128${ac_uB}HAVE_AS_LEB128${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_GAS_SHF_MERGE${ac_uB}HAVE_GAS_SHF_MERGE${ac_uC}1${ac_uD}
-${ac_uA}HAVE_COMDAT_GROUP${ac_uB}HAVE_COMDAT_GROUP${ac_uC}1${ac_uD}
+${ac_uA}HAVE_COMDAT_GROUP${ac_uB}HAVE_COMDAT_GROUP${ac_uC}0${ac_uD}
 ${ac_uA}HAVE_LD_STATIC_DYNAMIC${ac_uB}HAVE_LD_STATIC_DYNAMIC${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_AS_DWARF2_DEBUG_LINE${ac_uB}HAVE_AS_DWARF2_DEBUG_LINE${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_AS_GDWARF2_DEBUG_FLAG${ac_uB}HAVE_AS_GDWARF2_DEBUG_FLAG${ac_uC}1${ac_uD}
