@@ -1,23 +1,23 @@
-#include "udp.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <pthread.h>
+#include "udp.h"
 #include "time.h"
 #define IP "192.168.0.1"
 
 float integral;
 float prev_error;
-float Kp = 20;
-float Ki = 900;	
-//float Kd = 0.00189;
+float Kp = 2.855;
+float Ki = 1471;	
+//float Kd = 0.01708;
 float derivative;
 float y;
-float dt = 0.0025;	
+float dt = 0.0035;	
 float u; 
 float error;
 int i;
 struct timespec t;
-struct timespec remain;
 struct timespec sleep_time;
 struct timespec now;
 struct timespec then;
@@ -33,6 +33,17 @@ void start_simulation()
   udpconn_send(conn, sendBuf);
   
   udpconn_delete(conn);
+}
+
+void busy_wait(struct timespec t){
+    struct timespec now;
+    clock_gettime(CLOCK_MONOTONIC, &now);
+    struct timespec then = timespec_add(now, t);
+    int i;
+    while(timespec_cmp(now, then) < 0){
+        for(i = 0; i < 1000; i++){}
+        clock_gettime(CLOCK_MONOTONIC, &now);
+    }
 }
 
 void stop_simulation()
@@ -61,20 +72,7 @@ float get_y ()
   udpconn_send(conn, sendBuf);
   
   udpconn_receive(conn, recvBuf, sizeof(recvBuf));
-
-	//printf("buffer: %s\n\r", recvBuf);
-
-	//memmove(recvBuf, recvBuf+8, strlen(recvBuf));
-	//printf("newMessage: {%s}\n\r", recvBuf);
 	y = (float) atof(recvBuf + 8); 
-
-	/*char * separator = ":";
-	char * b = strtok(recvBuf, separator);
-	printf("newMessage: {%s}\n\r", recvBuf);
-	printf("B: {%s}\n\r", b);
-	y = atof(recvBuf);*/
-
-	//printf("Y: %f\n\r", y);
   
   udpconn_delete(conn);
 
@@ -100,50 +98,34 @@ void set_u(float u)
 
 float controller (float set_point)
 {
-
-
-	
-
 	//printf("Hello controller\n\r");
 	i = 0;
   clock_gettime(CLOCK_MONOTONIC, &now);
   then = timespec_add(now, t);
 
-	printf("now: %d s | then: %d s\n\r", now.tv_sec, then.tv_sec);
-	//printf("Time at start: %d s %d ns\n\r", now.tv_sec, now.tv_nsec);
 	while(timespec_cmp(now, then) < 0){
 		y = get_y();
 
 		error = set_point - y;
 		integral += error * dt;
-		derivative  = (error - prev_error) / dt;
+		//derivative  = (error - prev_error) / dt;
 		prev_error  = error;
 
-		//printf("Error: %f | integral: %f | dt: %f", error, integral, dt);    
-
 		u = Kp * error + Ki * integral;
-
-		//printf("Y: %f | u: %f\n\r", y, u);
-
-		//u = Kp * error + Ki * integral + Kd * derivative;
 		set_u(u);
 
-		clock_nanosleep(CLOCK_MONOTONIC, 0, &sleep_time, &remain);
-		printf("Time remaining: %d ns \n\r", remain.tv_nsec);
+		//clock_nanosleep(CLOCK_MONOTONIC, 0, &sleep_time, NULL);
+		busy_wait(sleep_time);
 		clock_gettime(CLOCK_MONOTONIC, &now);
 		++i;
   }
 	
 	printf("%d\n", i);
-	printf("Time at end: %d s %d ns\n", now.tv_sec, now.tv_nsec);
-
-
 	return y;
 
 }
 
-
-int main ()
+void *system_controller()
 {
 	integral = 0;
 	prev_error = 0;	
@@ -151,17 +133,23 @@ int main ()
 	t.tv_sec = 1;
 	t.tv_nsec = 0;
 
-	remain.tv_sec = 0;
-	remain.tv_nsec = 0;
-
 	sleep_time.tv_sec = 0;
-	sleep_time.tv_nsec = 5000000;
+	sleep_time.tv_nsec = 2000000;
+
 
 	start_simulation();
   controller(1);
 	controller(0);
 	stop_simulation();
-		
+}
+
+
+int main ()
+{
+	pthread_t ctrl_thread;
+	pthread_create(&ctrl_thread, NULL, system_controller, NULL);
+	
+	pthread_join(ctrl_thread, NULL);	
 	return 0;
 }
 
