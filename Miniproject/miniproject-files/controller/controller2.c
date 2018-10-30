@@ -10,9 +10,10 @@ float integral;
 float prev_error;
 float Kp = 2.855;
 float Ki = 1471;	
+//float Kd = 0.01708;
 float derivative;
-float dt = 0.002;	
 float y;
+float dt = 0.005;	
 float u; 
 float error;
 int i;
@@ -23,11 +24,17 @@ struct timespec then;
 float set_point;
 
 UDPConn* conn;
+pthread_mutex_t mymutex;
 pthread_mutex_t mutex_sp;
 
 void start_simulation()
 { 
-  udpconn_send(conn, "START");
+  char sendBuf[64];  
+
+  sprintf(sendBuf, "START");    
+  pthread_mutex_lock(&mymutex);
+  udpconn_send(conn, sendBuf);
+  pthread_mutex_unlock(&mymutex);
 }
 
 void busy_wait(struct timespec t){
@@ -43,18 +50,24 @@ void busy_wait(struct timespec t){
 
 void stop_simulation()
 {
-  udpconn_send(conn, "STOP");
+  char sendBuf[64];  
+
+  sprintf(sendBuf, "STOP");
+  pthread_mutex_lock(&mymutex);    
+  udpconn_send(conn, sendBuf);
+  pthread_mutex_unlock(&mymutex);
 }
 
 void send_get_y ()
 {
 	char sendBuf[64];
 
-  sprintf(sendBuf, "GET");   
-  udpconn_send(conn, sendBuf); 
+  sprintf(sendBuf, "GET"); 
+  pthread_mutex_lock(&mymutex);   
+  udpconn_send(conn, sendBuf);
+	pthread_mutex_unlock(&mymutex); 
 }
 
-//send the correspond U
 void set_u(float y)
 {
   char sendBuf[64]; 
@@ -71,17 +84,16 @@ void set_u(float y)
 	u = Kp * error + Ki * integral;
 
 	snprintf(command, sizeof(command), "SET:%.6f", u);
+	//printf("SET U: %s\n\r", command);
 	
   sprintf(sendBuf, command);   
   udpconn_send(conn, sendBuf);
   
 }
 
-
-//send GET Y requests each Xms
 float controller ()
 {
-	i = 0;
+	//i = 0;
   clock_gettime(CLOCK_MONOTONIC, &now);
   then = timespec_add(now, t);
 
@@ -89,23 +101,21 @@ float controller ()
   clock_gettime(CLOCK_MONOTONIC, &wake_time);
 
 	while(timespec_cmp(now, then) < 0){
-		udpconn_send(conn, "GET");
-		
-		clock_nanosleep(CLOCK_MONOTONIC, 0, &(struct timespec){0, 2*1000*1000}, NULL);
-		//wake_time = timespec_add(wake_time, (struct timespec){0, 2*1000*1000});
-		//clock_nanosleep(CLOCK_MONOTONIC, TIMER_ABSTIME, &wake_time, NULL);
+		send_get_y();
+
+		//clock_nanosleep(CLOCK_MONOTONIC, 0, &sleep_time, NULL);
+		wake_time = timespec_add(wake_time, (struct timespec){0, 5*1000*1000});
+		clock_nanosleep(CLOCK_MONOTONIC, TIMER_ABSTIME, &wake_time, NULL);
 		//busy_wait(sleep_time);
 		clock_gettime(CLOCK_MONOTONIC, &now);
 		++i;
   }
 	
-	printf("%d\n", i);
+	//printf("%d\n", i);
 	return y;
 
 }
 
-
-//Call the controller with set poit to 1 and then 0
 void *system_controller()
 {
 	integral = 0;
@@ -128,18 +138,21 @@ void *system_controller()
 	
 }
 
-//Handle to requests. Both SIGNAL or GET_ACK
-void* respond_to_network()
+void* respond_to_network(/*recvBuf*/)
 {
   char sendBuf[64];
 	char recvBuf[64]; 
 
+	pthread_mutex_lock(&mymutex);
 	udpconn_send(conn, "START"); 
+	pthread_mutex_unlock(&mymutex);
 	while(1)
 	{
+		pthread_mutex_lock(&mymutex);
 		udpconn_receive(conn, recvBuf, sizeof(recvBuf));
 		if (strcmp(recvBuf, "SIGNAL") == 0)
-		{		
+		{
+			//printf("GOT A SIGNAL\n\r");			
 			char sendBuf[64];
 			sprintf(sendBuf, "SIGNAL_ACK"); 
 			udpconn_send(conn, sendBuf);
@@ -148,6 +161,7 @@ void* respond_to_network()
 			y = (float) atof(recvBuf + 8);
 			set_u(y);		
 		}
+	  pthread_mutex_unlock(&mymutex);
 	}
 
 }
@@ -157,6 +171,7 @@ int main ()
 	pthread_t ctrl_thread;
 	pthread_t signal_responder;
 
+	pthread_mutex_init(&mymutex, NULL);
 	pthread_mutex_init(&mutex_sp, NULL);
 
 	conn = udpconn_new(IP, 9999);
@@ -167,13 +182,14 @@ int main ()
 	pthread_create(&signal_responder, NULL, respond_to_network, NULL);	
 	
 	pthread_join(ctrl_thread, NULL);
+	//pthread_join(signal_responder, NULL);
 
 	stop_simulation();
 	udpconn_delete(conn);
+	pthread_mutex_destroy(&mymutex);
 	pthread_mutex_destroy(&mutex_sp);
 	return 0;
 }
-
 
 
 
